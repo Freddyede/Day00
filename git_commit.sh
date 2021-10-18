@@ -1,2 +1,2 @@
 # Ressortir les 5 derniers commits de notre dépot git
-git log
+git log -5 --pretty=format:"%H"
