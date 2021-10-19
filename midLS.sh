@@ -1,1 +1,1 @@
-ls -ptm
+ls -ptm;
