@@ -1,0 +1,5 @@
+cp Day01/ex00/deposition_Joe_Rugiani.txt Ex02/deposition_Joe_Rugiani.txt;
+sed -i '11d' Ex02/deposition_Joe_Rugiani.txt;
+sed -i 's/cadillac jaune/chevrolet impala/g' Ex02/deposition_Joe_Rugiani.txt;
+sed -i 's/rouge/vert/g' Ex02/deposition_Joe_Rugiani.txt;
+sed -i "s/'est approché de la voiture ils ont discute durant 30 minutes et le chauffeur lui a donné un paquet ensuite le jeune livreur l'a range dans son sac a dos/'est approché de la voiture ils ont discute durant 30 minutes et le chauffeur lui a donné un paquet ensuite le jeune livreur l'a range dans son sac a dos/g" Ex02/deposition_Joe_Rugiani.txt;
