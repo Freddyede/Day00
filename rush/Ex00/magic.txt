@@ -1,0 +1,4 @@
+cp ./Day01/ex00/deposition_Joe_Rugiani.txt ./Ex00/deposition_Joe_Rugiani.txt;
+sed -i '10,11d' Ex00/deposition_Joe_Rugiani.txt;
+sed -i "s/'ai vu cette chevrolet impala/'ai vu cette cadillac jaune/g" Ex00/deposition_Joe_Rugiani.txt;
+sed -i "s/'est approché de la voiture ils ont discute durant 30 minutes et le chauffeur lui a donné un paquet ensuite le jeune livreur l'/'est approché de la voiture ils ont discute durant 30 minutes et le chauffeur lui a donné un paquet ensuite le jeune livreur l'/g" Ex00/deposition_Joe_Rugiani.txt;
